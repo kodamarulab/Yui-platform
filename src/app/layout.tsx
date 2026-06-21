@@ -8,7 +8,7 @@ import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "ゆい | 避難所コミュニティ支援アプリ",
-  description: "避難所コミュニティ支援アプリ「ゆい」の操作可能な画面モックです。",
+  description: "避難所コミュニティ支援アプリ「ゆい」の操作可能な模擬画面です。",
 };
 
 type RootLayoutProps = {

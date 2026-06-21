@@ -15,7 +15,10 @@ const stats = [
 const actions = [
   { href: "/staff/reception", label: "クイック受付", description: "職員が代理で受付を登録する想定の画面です。" },
   { href: "/staff/evacuees", label: "避難者一覧", description: "受付済みの避難者を一覧で確認します。" },
-  { href: "/staff/announcements", label: "お知らせ投稿", description: "職員が避難者向けのお知らせを作成する画面です。" },
+  { href: "/staff/announcements", label: "お知らせ投稿", description: "避難者向けのお知らせを作成します。" },
+  { href: "/staff/schedules", label: "今日の予定登録", description: "食事や相談などの予定を登録します。" },
+  { href: "/staff/support", label: "支援情報登録", description: "罹災証明や支援金などの案内を登録します。" },
+  { href: "/staff/requests", label: "要望・相談確認", description: "避難者からの相談内容を確認し返信します。" },
   { href: "/", label: "トップへ戻る", description: "避難者向けトップページへ戻ります。" },
 ];
 
@@ -28,7 +31,7 @@ export default function StaffPage() {
           <StatCard key={stat.label} label={stat.label} value={stat.value} />
         ))}
       </section>
-      <section className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {actions.map((action) => (
           <MenuCard description={action.description} href={action.href} key={action.href} label={action.label} />
         ))}

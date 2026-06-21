@@ -31,6 +31,14 @@ export type SupportInfo = {
   contact: string;
 };
 
+export type RequestItem = {
+  id: string;
+  category: string;
+  name: string;
+  body: string;
+  status: string;
+};
+
 export type CommunityUser = {
   id: string;
   password: string;

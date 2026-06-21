@@ -23,11 +23,3 @@ body {
   color: var(--foreground);
   font-family: Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
 }
-
-a,
-button,
-input,
-select,
-textarea {
-  font: inherit;
-}

@@ -15,7 +15,7 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
         <Link className="flex items-center gap-3" href="/">
           <span className="grid h-12 w-12 place-items-center rounded-2xl bg-teal-600 text-xl font-bold text-white shadow-sm">
-            ゆ
+            結
           </span>
           <span>
             <span className="block text-2xl font-bold tracking-normal text-teal-950">ゆい</span>
