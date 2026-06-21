@@ -1,0 +1,21 @@
+// Shared page width and spacing wrapper.
+// src/components/PageContainer.tsx
+type PageContainerProps = {
+  children: React.ReactNode;
+  title?: string;
+  lead?: string;
+};
+
+export function PageContainer({ children, lead, title }: PageContainerProps) {
+  return (
+    <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:py-12">
+      {title ? (
+        <div className="mb-6">
+          <h1 className="text-3xl font-bold tracking-normal text-teal-950 sm:text-4xl">{title}</h1>
+          {lead ? <p className="mt-3 max-w-3xl text-lg leading-8 text-teal-950/75">{lead}</p> : null}
+        </div>
+      ) : null}
+      {children}
+    </div>
+  );
+}

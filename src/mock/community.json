@@ -1,0 +1,48 @@
+{
+  "thread": {
+    "id": "main-discussion",
+    "title": "自己受付後に職員確認を入れるべきか",
+    "body": "自己受付は便利ですが、受付番号発行後に職員が確認する流れが必要かを関係者全員で議論したいです。",
+    "status": "意見募集中"
+  },
+  "users": [
+    {
+      "id": "staff01",
+      "password": "demo1234",
+      "nickname": "防災担当"
+    },
+    {
+      "id": "nurse01",
+      "password": "demo1234",
+      "nickname": "保健師"
+    },
+    {
+      "id": "volunteer01",
+      "password": "demo1234",
+      "nickname": "ボランティア経験者"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "userId": "staff01",
+      "nickname": "防災担当",
+      "postedAt": "09:20",
+      "body": "要配慮者ありの場合は、受付後に職員確認が必要だと思います。"
+    },
+    {
+      "id": "m2",
+      "userId": "nurse01",
+      "nickname": "保健師",
+      "postedAt": "09:35",
+      "body": "服薬や持病の情報は、保健師が早めに確認できる流れがあると安心です。"
+    },
+    {
+      "id": "m3",
+      "userId": "volunteer01",
+      "nickname": "ボランティア経験者",
+      "postedAt": "09:50",
+      "body": "混雑時は全員をすぐ確認できないので、優先度が分かる表示があると運用しやすそうです。"
+    }
+  ]
+}

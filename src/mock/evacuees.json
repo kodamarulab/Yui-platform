@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "receptionNumber": "A001",
+    "name": "佐藤 花子",
+    "householdSize": 3,
+    "stayLocation": "体育館 A-1",
+    "status": "滞在中",
+    "supportNeeds": "高齢者あり。歩行時に見守りが必要。",
+    "memo": "血圧の薬を服用中。医療相談を希望。"
+  },
+  {
+    "id": "2",
+    "receptionNumber": "A002",
+    "name": "鈴木 一郎",
+    "householdSize": 2,
+    "stayLocation": "体育館 A-2",
+    "status": "滞在中",
+    "supportNeeds": "特になし",
+    "memo": "自宅状況の確認待ち。"
+  },
+  {
+    "id": "3",
+    "receptionNumber": "A003",
+    "name": "高橋 美咲",
+    "householdSize": 4,
+    "stayLocation": "教室 1-1",
+    "status": "滞在中",
+    "supportNeeds": "乳幼児あり。ミルクとおむつ支援が必要。",
+    "memo": "夜間授乳スペースの案内済み。"
+  },
+  {
+    "id": "4",
+    "receptionNumber": "A004",
+    "name": "田中 健",
+    "householdSize": 1,
+    "stayLocation": "体育館 B-1",
+    "status": "外出中",
+    "supportNeeds": "特になし",
+    "memo": "親族宅の確認で外出。"
+  },
+  {
+    "id": "5",
+    "receptionNumber": "A005",
+    "name": "伊藤 恵",
+    "householdSize": 2,
+    "stayLocation": "福祉スペース",
+    "status": "滞在中",
+    "supportNeeds": "車いす利用。段差の少ない場所が必要。",
+    "memo": "福祉避難スペースへ案内済み。"
+  },
+  {
+    "id": "6",
+    "receptionNumber": "A006",
+    "name": "渡辺 誠",
+    "householdSize": 5,
+    "stayLocation": "体育館 B-2",
+    "status": "滞在中",
+    "supportNeeds": "ペット同伴。屋外ペットエリア利用。",
+    "memo": "ペット用物資を希望。"
+  },
+  {
+    "id": "7",
+    "receptionNumber": "A007",
+    "name": "山本 由紀",
+    "householdSize": 1,
+    "stayLocation": "教室 1-2",
+    "status": "滞在中",
+    "supportNeeds": "持病あり。定期的な声かけが必要。",
+    "memo": "保健師巡回対象。"
+  },
+  {
+    "id": "8",
+    "receptionNumber": "A008",
+    "name": "中村 翔",
+    "householdSize": 3,
+    "stayLocation": "体育館 C-1",
+    "status": "滞在中",
+    "supportNeeds": "特になし",
+    "memo": "食料配布を受領済み。"
+  },
+  {
+    "id": "9",
+    "receptionNumber": "A009",
+    "name": "小林 明子",
+    "householdSize": 2,
+    "stayLocation": "教室 2-1",
+    "status": "相談中",
+    "supportNeeds": "高齢者あり。トイレに近い場所を希望。",
+    "memo": "滞在場所の変更を調整中。"
+  },
+  {
+    "id": "10",
+    "receptionNumber": "A010",
+    "name": "加藤 大輔",
+    "householdSize": 4,
+    "stayLocation": "体育館 C-2",
+    "status": "滞在中",
+    "supportNeeds": "乳幼児あり",
+    "memo": "粉ミルク配布済み。"
+  },
+  {
+    "id": "11",
+    "receptionNumber": "A011",
+    "name": "吉田 洋子",
+    "householdSize": 1,
+    "stayLocation": "福祉スペース",
+    "status": "滞在中",
+    "supportNeeds": "視覚に不安あり。掲示情報の読み上げが必要。",
+    "memo": "職員の巡回時に声かけ。"
+  },
+  {
+    "id": "12",
+    "receptionNumber": "A012",
+    "name": "山田 太郎",
+    "householdSize": 2,
+    "stayLocation": "体育館 D-1",
+    "status": "滞在中",
+    "supportNeeds": "特になし",
+    "memo": "充電スペースを案内済み。"
+  },
+  {
+    "id": "13",
+    "receptionNumber": "A013",
+    "name": "佐々木 真理",
+    "householdSize": 3,
+    "stayLocation": "教室 2-2",
+    "status": "滞在中",
+    "supportNeeds": "アレルギーあり。食事配布時に確認が必要。",
+    "memo": "アレルギー情報を配膳担当へ共有。"
+  },
+  {
+    "id": "14",
+    "receptionNumber": "A014",
+    "name": "松本 和也",
+    "householdSize": 1,
+    "stayLocation": "体育館 D-2",
+    "status": "外出中",
+    "supportNeeds": "特になし",
+    "memo": "勤務先確認で外出。"
+  },
+  {
+    "id": "15",
+    "receptionNumber": "A015",
+    "name": "井上 香織",
+    "householdSize": 4,
+    "stayLocation": "教室 3-1",
+    "status": "滞在中",
+    "supportNeeds": "乳幼児と高齢者あり",
+    "memo": "個室利用の希望あり。"
+  },
+  {
+    "id": "16",
+    "receptionNumber": "A016",
+    "name": "木村 学",
+    "householdSize": 2,
+    "stayLocation": "体育館 E-1",
+    "status": "滞在中",
+    "supportNeeds": "ペット同伴",
+    "memo": "ペットエリアの利用ルール説明済み。"
+  },
+  {
+    "id": "17",
+    "receptionNumber": "A017",
+    "name": "林 直美",
+    "householdSize": 1,
+    "stayLocation": "福祉スペース",
+    "status": "相談中",
+    "supportNeeds": "服薬管理の相談が必要。",
+    "memo": "医療相談の順番待ち。"
+  },
+  {
+    "id": "18",
+    "receptionNumber": "A018",
+    "name": "清水 亮",
+    "householdSize": 3,
+    "stayLocation": "体育館 E-2",
+    "status": "滞在中",
+    "supportNeeds": "特になし",
+    "memo": "掲示板の場所を案内済み。"
+  },
+  {
+    "id": "19",
+    "receptionNumber": "A019",
+    "name": "森 祥子",
+    "householdSize": 2,
+    "stayLocation": "教室 3-2",
+    "status": "滞在中",
+    "supportNeeds": "高齢者あり",
+    "memo": "段差の少ない動線を案内。"
+  },
+  {
+    "id": "20",
+    "receptionNumber": "A020",
+    "name": "池田 悠",
+    "householdSize": 5,
+    "stayLocation": "体育館 F-1",
+    "status": "滞在中",
+    "supportNeeds": "乳幼児あり。おむつ支援希望。",
+    "memo": "物資担当へ連絡済み。"
+  }
+]
