@@ -7,11 +7,10 @@ import { PageContainer } from "@/components/PageContainer";
 
 const menuItems = [
   { href: "/reception", label: "自己受付", description: "避難所に到着した方が自分で受付できます。" },
-  { href: "/my-info", label: "自分の情報", description: "受付済みの情報を確認し、必要な内容を編集できます。" },
+  { href: "/my-info", label: "マイページ", description: "受付済みの情報を確認し、必要な内容を編集できます。" },
   { href: "/announcements", label: "お知らせ", description: "給水や炊き出しなどの情報を確認できます。" },
   { href: "/schedules", label: "今日の予定", description: "食事、支援、相談の予定を時系列で確認できます。" },
   { href: "/support", label: "支援情報", description: "罹災証明や支援金などの手続き情報を確認できます。" },
-  { href: "/requests", label: "要望・相談", description: "困りごとや相談したい内容を職員へ伝えられます。" },
   { href: "/staff", label: "職員用画面", description: "避難所運営に必要な状況確認と受付を行います。" },
 ];
 

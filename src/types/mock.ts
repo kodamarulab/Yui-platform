@@ -8,10 +8,15 @@ export type Announcement = {
 };
 
 export type Evacuee = {
+  address?: string;
+  elderlyPeople?: number;
   id: string;
+  infants?: number;
   receptionNumber: string;
   name: string;
   householdSize: number;
+  phone?: string;
+  pets?: string;
   stayLocation: string;
   status: string;
   supportNeeds: string;
